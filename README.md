@@ -1,5 +1,7 @@
 # Prometheus Exporter for Renogy Rover
 
+Based on https://github.com/CyberRad/CoopSolar
+
 ## Known working devices
 Renogy Rover 60A https://smile.amazon.com/dp/B07PXJPSTY
 
