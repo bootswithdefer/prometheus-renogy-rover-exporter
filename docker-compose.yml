@@ -1,9 +1,8 @@
-version: '3.8'
-
 services:
   prometheus-rover-exporter:
     image: prometheus-rover-exporter
-    network_mode: "host"
     restart: always
     devices:
       - "/dev/ttyUSB0:/dev/ttyUSB0"
+    ports:
+      - "9732:8080"

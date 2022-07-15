@@ -58,7 +58,7 @@ def get_rover_metrics():
 
 if __name__ == "__main__":
     # Start up the server to expose the metrics.
-    start_http_server(9732)
+    start_http_server(8080)
     # Generate some requests.
     while True:
         get_rover_metrics()
